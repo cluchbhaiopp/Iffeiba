@@ -45,7 +45,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
-TOKEN = True if os.environ.get('TOKEN', "True") == "True" else False 
+TOKEN = False if os.environ.get('TOKEN', "False") == "True" else False 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "http://Urlwala.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "012b548ecd8b290feee25a4736747ac9a9801608")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
