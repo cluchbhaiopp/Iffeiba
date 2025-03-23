@@ -16,7 +16,7 @@ APP_ID = int(os.environ.get("APP_ID", "28154335"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "6c42a9496a4d47db990c6eefd16c14ec")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002256658532"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002308677906"))
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "Jbltoxic")
 #OWNER ID
@@ -24,7 +24,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7550106593"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://panchalishanibigbigpvtltd:ZGrflD8zSpi7ZQUD@cluster0.ee5qz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://cluchbhaineverdie:HbPoj6LkrM5hOJzn@cluster0.ydodm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Time in seconds for message delete, put 0 to never delete
@@ -35,7 +35,7 @@ TIME = int(os.environ.get("TIME", "0"))
 FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "0"))
 #put 0 to disable
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001911546743"))#put 0 to disable
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002240500177"))#put 0 to disable
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002418806520"))#put 0 to disable
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to disable
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -45,9 +45,9 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
-TOKEN = False if os.environ.get('TOKEN', "False") == "True" else False 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+TOKEN = True if os.environ.get('TOKEN', "True") == "True" else False 
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "http://Urlwala.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "012b548ecd8b290feee25a4736747ac9a9801608")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/hwdownload/3")
